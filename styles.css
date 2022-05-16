@@ -1,13 +1,13 @@
-
 body {
     margin: 0;
     background-color: lightgray;
     font-family: 'Comic Neue', cursive;
     font-family: 'Dosis', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    }
+}
 
-.header-container, .container {
+/*     pseudo navbar    */
+div.header-container, div.container {
     background-color: white;
 }
 
@@ -17,45 +17,36 @@ div.header-container {
     padding: 0.5px;
 }
 
-h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+div.header-container h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
+/*     post     */
 div.container {
     margin: auto;
-    width: 650px;
-    padding: 10px; 
-    margin-bottom: 30px;
-}
-
-div.post div.child-two {
-   color: gray; 
-   margin: 0;
+    width: 640px; 
 }
 
 div.post div.post-header {
-   display: flex;
+    display: flex;
 }
 
 div.post-header div.child-one {
-    padding-left: 10px;
     width: 70%;
     margin: auto;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 
 div.post-header div.child-two {
-    width: 30%;
+    color: gray;   
     margin: auto;
+    padding-left: 15%;
     text-align: right;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
+div.content p{
+    padding: 1% 2% 2% 2%;
+}
 
-
-/*
- https://images.unsplash.com/photo-1650959005897-d0a60bae6f65 
- image
- 
- */
